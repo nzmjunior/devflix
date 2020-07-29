@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../Menu';
-import Footer from '../Footer'
+import Footer from '../Footer';
 import styled from 'styled-components';
 
 const Main = styled.main`
@@ -11,7 +11,6 @@ const Main = styled.main`
   padding-left: 5%;
   padding-right: 5%;
 `;
-
 
 
 function PageDefault({ children }) {
