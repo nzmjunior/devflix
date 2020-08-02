@@ -5,14 +5,14 @@ import Logo from '../../assets/img/Logo.png';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.devflix.nzm/">
-        <img src={Logo} alt="Logo Alura" />
+      <a href="/">
+        <img className="Logo" src={Logo} alt="DevFlix logo" />
       </a>
       <p>
         Vídeos de
         {' '}
-        <a href="https://www.devflix.nzm">
-        Desenvolvimento
+        <a href="/">
+          Desenvolvimento WEB
         </a>
       </p>
     </FooterBase>
